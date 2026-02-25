@@ -1,8 +1,8 @@
 
-int led = 13;
+int led = 13
 
 void setup() {
-  pinMode(ledPin, OUTPUT); // ERROR: ledPin no existe
+  pinMode(led, OUTPUT);
 }
 
 void loop() {
