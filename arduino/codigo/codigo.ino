@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-  digitalWrit(led, HIGH); // ERROR: digitalWrit no existe
+  digitalWrite(led, HIGH);
   delay(1000);
   digitalWrite(led, LOW);
   delay(1000);
